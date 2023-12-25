@@ -62,12 +62,14 @@ with st.form('form', clear_on_submit=True):
 
 print(st.session_state['query'])
 
-# if submit and user_input:
-#     output = generate_response(user_input) # gen
-#     st.session_state.query.append(user_input)
-#     st.session_state.generation.append(output)
+if submit and user_input:
+    output = generate_response(user_input) # gen
+    st.session_state.query.append(user_input)
+    st.session_state.generation.append(output)
+    
+print(st.session_state)
 
-# if st.session_state['generation']:
-#     for i in range(len(st.session_state['generation'])-1, -1, -1):
-#         message(st.session_state['query'][i], is_user=True, key=str(i) + '_user')
-#         message(st.session_state["generation"][i], key=str(i))
+if st.session_state['generation']:
+    for i in range(len(st.session_state['generation'])-1, -1, -1):
+        message(st.session_state['query'][i], is_user=True, key=str(i) + '_user')
+        message(st.session_state["generation"][i]["result"], key=str(i))
