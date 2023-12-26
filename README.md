@@ -21,6 +21,9 @@ Retreval Augmented Generation을 이용한 네이버 뉴스기사 챗봇
 
   2-4 : Merge한 csv파일을 FAISS로 indexing(data_indexing.py)
 
+
+  2-5 : 데이터를 크롤링할 경우 자신의 로컬 환경에 맞게 경로설정을 할 수 있도록 주의하여야 한다. 
+
 # 3. Open AI API Key를 main.py파일에 입력하고, 저장한후 실행 
  정상적으로 동작한다면 아래와 같은 초기화면을 볼 수 있다.
  ![image](https://github.com/MyungKyuKim/AI-project/assets/71568851/4788084c-43dc-4094-8399-c774073f3052)
