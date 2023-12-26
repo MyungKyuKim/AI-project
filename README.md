@@ -12,6 +12,12 @@ Retreval Augmented Generation을 이용한 네이버 뉴스기사 챗봇
    2-3 : 크롤링한 네이버 뉴스 데이터가 들어있는 폴더를 경로 설정하고, 데이터를 하나의 csv파일로 Merge(data_merge.py)
    2-4 : Merge한 csv파일을 FAISS로 indexing
 
-3. Open AI API Key를 main.py파일에 입력하고, 저장한후 실행
+3. Open AI API Key를 main.py파일에 입력하고, 저장한후 실행 정상적으로 동작한다면 아래와 같은 초기화면을 볼 수 있다.
+4. ![image](https://github.com/MyungKyuKim/AI-project/assets/71568851/4788084c-43dc-4094-8399-c774073f3052)
+5. ![image](https://github.com/MyungKyuKim/AI-project/assets/71568851/30ed412e-137f-4e13-8de3-b45c3453be9f)
+6. ![image](https://github.com/MyungKyuKim/AI-project/assets/71568851/a4085fe3-8eb2-4b6e-8883-81d945b14c5b)
+
+
+
   
 <img src="https://capsule-render.vercel.app/api?type=wave&color=BDBDC8&height=150&section=footer&text=RAG를 이용한 뉴스기사 챗봇&fontSize=20" />
