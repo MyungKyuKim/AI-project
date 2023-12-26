@@ -27,7 +27,8 @@ Retreval Augmented Generation을 이용한 네이버 뉴스기사 챗봇
  ![image](https://github.com/MyungKyuKim/AI-project/assets/71568851/30ed412e-137f-4e13-8de3-b45c3453be9f)
  ![image](https://github.com/MyungKyuKim/AI-project/assets/71568851/a4085fe3-8eb2-4b6e-8883-81d945b14c5b)
 
-
+# 5. Train폴더
+ 이 노트북은 직접 Korquad데이터를 가지고 Lora와 Neftune을 적용하여 mistral-7b모델을 instruction tuning 시키는 코드이다. 
 
   
 <img src="https://capsule-render.vercel.app/api?type=wave&color=BDBDC8&height=150&section=footer&text=RAG를 이용한 뉴스기사 챗봇&fontSize=20" />
