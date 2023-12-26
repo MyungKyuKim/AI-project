@@ -9,7 +9,8 @@ Retreval Augmented Generation을 이용한 네이버 뉴스기사 챗봇
 # 2. 해당 데모를 실행하기 위해서 필요한 것.
 
   2-1 : chat GPT를 사용 할 수 있는 OpenAI API key
- 
+ ![image](https://github.com/MyungKyuKim/AI-project/assets/71568851/f88c60b8-9d8a-407c-8939-04c0128b4105)
+
 
   2-2 : 로컬에서 네이버뉴스를 Crawl_data.py를 이용하여 크롤링
 
