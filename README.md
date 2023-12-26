@@ -4,7 +4,7 @@ Retreval Augmented Generation을 이용한 네이버 뉴스기사 챗봇
 
 1. 최종 데모 실행 파일 main.py
 
-   Streamlit을 이용한 로컬환경에서 연결하여 데모하였음 정상작동시 다음과 같은 화면이 나오게 됨.
+   Streamlit을 이용한 로컬환경에서 연결하여 데모를 진행하였음.
 
 2. 해당 데모를 실행하기 위해서 필요한 것.
    2-1 : chat GPT를 사용 할 수 있는 OpenAI API key
